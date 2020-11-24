@@ -59,6 +59,12 @@ function drawBean(x, y, topColor, midColor, lowColor, faceColor, armColor, thick
     }
 }
 
-// Draw the stuff
+// Draw the Objects Bellow
+
+// Spike thing:
+// 1. X Location, 2. Y Location, 3. Color of Large Circle, 4. Color of Small Circle, 5. Color of the spikes, 6. Line Thickness, 7. Width of Drawing, 8. Height of Drawing
 drawArt(100, 120, "blue", "green", "purple", "3", "1", "1");
+
+// Snow Man:
+// 1. X Location, 2. Y Location, 3. Color of head, 4. Color of middle body, 5. color of lower body, 6. color of face, 7. color of arms, 8. thickness, 9. Width of Drawing, 10. Height of Drawing
 drawBean(100, -100, "black", "red", "brown", "black", "blue", "1", "1", "1");
